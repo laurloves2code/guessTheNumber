@@ -1,0 +1,9 @@
+body {
+    padding-left: 4em;
+    margin-top: 3em;
+}
+
+.btnResponse {
+    font-size: 2em;
+    font-weight: bold;
+}

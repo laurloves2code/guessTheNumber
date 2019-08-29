@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="group" id="top">
+  <h1>I'm thinking of a number 1 to 10. Guess the number!.</h1>
+  <p><h2>The first Team to 5 points is the Champion!</h2></p>
+</header>
+<div class="container" id="main-content" >
+  <p>
+  <label for="aTeamNumber" >Team A:</label>
+  <input id="aTeamNumber" type="number">
+  </p>
+  <p>
+  <label for="bTeamNumber" >Team B:</label>
+  <input id="bTeamNumber" type="number">
+  </p>
+  <button id = "whoWonBtn">Who Guessed It?</button>
+  <p class="btnResponse" id="response">
+    Let's Go!
+  </p>
+</div>
+
+<div class="teamScore">
+  <h2>Score:</h2>
+  <p id = "teamAScore"><strong>Team A: </strong></p>
+  <p id = "teamBScore"><strong>Team B: </strong></p>
+</div>
+<footer>
+    
+</footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
